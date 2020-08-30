@@ -1,0 +1,37 @@
+ 1) NAVIGUER
+ - cd
+ - ls
+ - pwd : afficher le répertoire où l'on se trouve exactement
+ 
+ 2) DEPLACER, COPIER, RENOMMER
+ - cp : copier des fichiers ou des répertoires
+ - mkdir
+ - mv
+ - ln : créer des liens durs et liens symboliques
+ - rm
+ - rmdir : supprimer un dossier vide
+ 
+ 3) CREER FICHIER
+ - touch : créer un fichier
+   -a : change l'heure du dernier accès au fichier par l'heure actuelle
+   -m : change l'heure de la dernière modification du fichier par l'heure actuelle
+   -t AAMMJJhhmm : utiliser la date indiquée dans l'argument au lieu de la date actuelle
+   -c : ne pas créer de fichier si celui-ci n'existe pas
+   -r fic_src fic_dest : utiliser les paramètres d'heure d'un autre fichier comme modèle
+ - dd if=/dev/zero of=nomFichier bs=1k count=100 : créer un fichier dont chaque bloc de données
+ aura pour taille 1ko et le nombre de blocs sera de 100
+ 
+ 4) TROUVER UN FICHIER
+ - find : recherche pointue
+ - locate : recherche accélérée de fichiers ou rép
+ - which : chemin d'une commande déterminée
+ 
+ 5) CHANGER LES DROITS
+ - chmod : gérer la distribution des droits d'un fichier
+ - chown : gérer la propriété d'un fichier
+ - umask : création automatique des droits
+ - Access Control List : gestion des droits avancés (experts)
+ 
+ 6) LIRE UN FICHIER TEXTE : cat
+ 7) VERIFIER L'INTEGRITE D'UN FICHIER : checksum
+

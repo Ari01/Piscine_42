@@ -1,0 +1,16 @@
+chmod (a/u/g/o)(-/+)(r/w/x) nomFichier
+
+a = all
+u = user
+g = group
+o = other
+
+- = remove right
++ = add right
+
+r = read
+w = write
+x = execute
+
+Pour modifier tous les droits d'un coup : 
+chmod u+rw,g+rw,o+rw nomFichier
